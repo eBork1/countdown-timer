@@ -15,6 +15,6 @@ var countdown = setInterval(function() {
 }, 1000);
 
 if (timeLeft < 0) {
-clearInterval(x);
+clearInterval(countdown);
 document.getElementById("time").innerHTML = "HAPPY NEW YEAR!";
 }
